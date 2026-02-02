@@ -1,0 +1,34 @@
+﻿@model MyRecipe.Models.Review
+
+@{
+    ViewData["Title"] = "Review Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="px-6 py-6">
+    <h2 class="text-2xl font-bold text-blue-600 mb-6">📄 Review Details</h2>
+
+    <div class="bg-white shadow-lg rounded-lg p-6 w-full max-w-2xl">
+        <dl class="divide-y divide-slate-200">
+            <div class="py-4 flex justify-between">
+                <dt class="text-slate-600 font-medium">Comment:</dt>
+                <dd class="text-slate-900">@Html.DisplayFor(model => model.Comment)</dd>
+            </div>
+            <div class="py-4 flex justify-between">
+                <dt class="text-slate-600 font-medium">Created At:</dt>
+                <dd class="text-slate-900">@Html.DisplayFor(model => model.CreatedAt)</dd>
+            </div>
+            <div class="py-4 flex justify-between">
+                <dt class="text-slate-600 font-medium">Recipe Title:</dt>
+                <dd class="text-slate-900">@Html.DisplayFor(model => model.Recipe.Title)</dd>
+            </div>
+        </dl>
+
+        <div class="mt-6 flex justify-between">
+            <a asp-action="Edit" asp-route-id="@Model?.Id" class="bg-yellow-500 hover:bg-yellow-600 text-white font-semibold py-2 px-4 rounded shadow">
+                ✏️ Edit
+            </a>
+            <a asp-action="Index" class="text-blue-600 hover:underline font-medium">← Back to List</a>
+        </div>
+    </div>
+</div>

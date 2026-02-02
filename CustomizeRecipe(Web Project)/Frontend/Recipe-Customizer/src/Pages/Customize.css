@@ -1,0 +1,122 @@
+.customize-container {
+  padding: 2rem;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fffdf6;
+  min-height: 100vh;
+}
+
+/* Page title */
+h1 {
+  text-align: center;
+  color: #7f5af0;
+  margin-bottom: 2rem;
+  font-size: 2.2rem;
+}
+
+/* Layout for sections */
+.customize-layout {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: space-between;
+}
+
+/* Individual sections */
+.customize-section {
+  flex: 1;
+  min-width: 300px;
+  background: #fef6e4;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s;
+}
+
+.customize-section:hover {
+  transform: translateY(-3px);
+}
+
+h3 {
+  margin-bottom: 1rem;
+  color: #272343;
+  font-size: 1.3rem;
+}
+
+/* Form inputs and textarea */
+.form-section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+input,
+textarea {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  resize: vertical;
+  width: 100%;
+  transition: border 0.3s ease;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #7f5af0;
+  outline: none;
+}
+
+/* Buttons */
+button {
+  background-color: #00bbf9;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #7f5af0;
+}
+
+.custom-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.custom-list li {
+  padding: 6px 10px;
+  background: #fff;
+  border-radius: 6px;
+  margin-bottom: 6px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.06);
+}
+
+/* Save button */
+.save-btn {
+  margin-top: 2rem;
+  background-color:blueviolet;
+  padding: 12px 25px;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Saved Recipe Message Box */
+.saved-box {
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: #d8f3dc;
+  border-left: 5px solid #00bbf9;
+  border-radius: 8px;
+  font-size: 1rem;
+  color: #2d6a4f;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}

@@ -1,0 +1,69 @@
+.auth-container {
+  max-width: 440px;
+  margin: 80px auto;
+  padding: 35px 30px;
+  border-radius: 18px;
+  background: linear-gradient(135deg, #f8f0fb, #e7d6f5); /* Purple gradient like ingredient cards */
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(124, 58, 237, 0.12);
+  font-family: 'Segoe UI', sans-serif;
+  border: 1px solid #d7baf2;
+  transition: all 0.3s ease;
+}
+
+.auth-container h2 {
+  margin-bottom: 25px;
+  font-size: 26px;
+  font-weight: 600;
+  color: #5e2b9c; /* Deep purple */
+}
+
+.auth-container input {
+  width: 100%;
+  padding: 14px;
+  margin: 12px 0;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+  background: #fff;
+  transition: border 0.3s ease, box-shadow 0.3s ease;
+}
+
+.auth-container input:focus {
+  border-color: #a678f4;
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(166, 120, 244, 0.2);
+}
+
+.auth-container button {
+  width: 100%;
+  padding: 14px;
+  background-color: #7f5af0;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.auth-container button:hover {
+  background-color: #5a35c0;
+}
+
+.auth-container p {
+  margin-top: 18px;
+  font-size: 14px;
+  color: #555;
+}
+
+.auth-container a {
+  color: #7f5af0;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.auth-container a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,121 @@
+.view-recipes-container {
+  padding: 2.5rem;
+  background: linear-gradient(to bottom, #fef6e4, #fffaf0);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  min-height: 100vh;
+  color: #272343;
+}
+
+.view-recipes-container h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  color: #7f5af0;
+}
+
+.recipes-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.recipe-card {
+  background: linear-gradient(135deg, #f8f0fb, #e7d6f5);
+  border-radius: 16px;
+  box-shadow: 0 6px 18px rgba(124, 58, 237, 0.08);
+  padding: 1.8rem;
+  width: 320px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border: 1px solid #e2d0f4;
+}
+
+.recipe-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px rgba(124, 58, 237, 0.12);
+}
+
+.recipe-card h3 {
+  margin-top: 0;
+  font-size: 1.5rem;
+  color: #5e2b9c;
+  margin-bottom: 0.6rem;
+}
+
+.recipe-card p,
+.recipe-card li {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: #444;
+}
+
+.recipe-card strong {
+  color: #7f5af0;
+}
+
+.recipe-card h4 {
+  margin-top: 1rem;
+  margin-bottom: 0.4rem;
+  font-size: 1.1rem;
+  color: #5e2b9c;
+}
+
+.recipe-card ul {
+  padding-left: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.recipe-card ul li::before {
+  content: "🍴 ";
+}
+
+.recipe-card ul li {
+  margin-bottom: 0.3rem;
+  color: #333;
+}
+
+.recipe-card .rating-review-section {
+  margin-top: 1.2rem;
+  border-top: 1px solid #ddd;
+  padding-top: 1rem;
+}
+
+.recipe-card .rating-review-section label {
+  font-weight: 600;
+  display: block;
+  margin-bottom: 0.4rem;
+  color: #5e2b9c;
+}
+
+.recipe-card .rating-review-section select,
+.recipe-card .rating-review-section textarea {
+  width: 100%;
+  margin-bottom: 0.8rem;
+  padding: 0.6rem;
+  border: 1px solid #cdbfe6;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  background-color: #fff;
+}
+
+.recipe-card .rating-review-section textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+.recipe-card .rating-review-section button {
+  width: 100%;
+  background-color: #7f5af0;
+  color: white;
+  padding: 0.7rem;
+  border: none;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.25s ease;
+}
+
+.recipe-card .rating-review-section button:hover {
+  background-color: #5a35c0;
+}

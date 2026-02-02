@@ -1,0 +1,59 @@
+﻿@model MyRecipe.Models.Recipe
+
+@{
+    ViewData["Title"] = "Edit Recipe";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="flex justify-center items-center min-h-screen bg-gray-50">
+    <div class="w-full max-w-3xl bg-white px-8 py-6 rounded-lg shadow-lg">
+        <h2 class="text-3xl font-bold text-slate-700 mb-6 text-center">✏️ Edit Recipe</h2>
+
+        <form asp-action="Edit" class="space-y-5">
+            <div asp-validation-summary="ModelOnly" class="text-red-600 text-sm mb-4"></div>
+            <input type="hidden" asp-for="Id" />
+
+            <!-- ✅ Title field -->
+            <div>
+                <label asp-for="Title" class="block text-sm font-medium text-slate-700 mb-1"></label>
+                <input asp-for="Title" class="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring focus:ring-purple-300" />
+                <span asp-validation-for="Title" class="text-red-500 text-sm"></span>
+            </div>
+
+            <div>
+                <label asp-for="Ingredients" class="block text-sm font-medium text-slate-700 mb-1"></label>
+                <input asp-for="Ingredients" class="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring focus:ring-purple-300" />
+                <span asp-validation-for="Ingredients" class="text-red-500 text-sm"></span>
+            </div>
+
+            <div>
+                <label asp-for="Instructions" class="block text-sm font-medium text-slate-700 mb-1"></label>
+                <input asp-for="Instructions" class="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring focus:ring-purple-300" />
+                <span asp-validation-for="Instructions" class="text-red-500 text-sm"></span>
+            </div>
+
+            <div>
+                <label asp-for="CreatedBy" class="block text-sm font-medium text-slate-700 mb-1"></label>
+                <input asp-for="CreatedBy" class="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring focus:ring-purple-300" />
+                <span asp-validation-for="CreatedBy" class="text-red-500 text-sm"></span>
+            </div>
+
+            <div>
+                <label asp-for="CreatedAt" class="block text-sm font-medium text-slate-700 mb-1"></label>
+                <input asp-for="CreatedAt" class="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring focus:ring-purple-300" />
+                <span asp-validation-for="CreatedAt" class="text-red-500 text-sm"></span>
+            </div>
+
+            <div class="flex justify-between items-center mt-6">
+                <input type="submit" value="💾 Save Changes" class="bg-purple-600 hover:bg-purple-700 text-white font-semibold px-6 py-2 rounded shadow" />
+                <a asp-action="Index" class="text-purple-600 hover:underline">← Back to List</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

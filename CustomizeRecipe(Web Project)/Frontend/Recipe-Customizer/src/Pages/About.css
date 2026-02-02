@@ -1,0 +1,35 @@
+.about-wrapper {
+  background: linear-gradient(to right, #f3e8ff, #eaddff); /* lavender and light purple */
+  padding: 40px 20px;
+  font-family: 'Segoe UI', sans-serif;
+  min-height: 100vh;
+  color: #3b2f61; /* deep purple text */
+}
+
+.about-hero {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.about-hero h1 {
+  color: #7f5af0; /* primary purple */
+  font-size: 2.8rem;
+  margin-bottom: 10px;
+}
+
+.about-hero p {
+  font-size: 1.2rem;
+  color: #5e4b8b; /* soft purple text */
+}
+
+.about-content {
+  max-width: 800px;
+  margin: auto;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 14px;
+  border: 1px solid #d8c4f2; /* light purple border */
+  box-shadow: 0 8px 24px rgba(127, 90, 240, 0.1); /* subtle purple glow */
+}

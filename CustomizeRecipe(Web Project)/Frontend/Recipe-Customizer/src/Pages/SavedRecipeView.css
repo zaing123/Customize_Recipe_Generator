@@ -1,0 +1,55 @@
+.saved-recipe-wrapper {
+  padding: 2rem;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f9ff;
+  min-height: 100vh;
+}
+
+.saved-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 2rem;
+  max-width: 700px;
+  margin: 0 auto;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.saved-card h2 {
+  color: #7f5af0;
+  margin-bottom: 1rem;
+}
+
+.section h4 {
+  color: #272343;
+  margin-top: 1.5rem;
+}
+
+.section ul, .section ol {
+  padding-left: 1.5rem;
+  line-height: 1.8em;
+}
+
+.button-group {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.feedback-btn, .download-btn {
+  background-color: #00bbf9;
+  color: white;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.download-btn {
+  background-color: #7f5af0;
+}
+
+.feedback-btn:hover, .download-btn:hover {
+  opacity: 0.9;
+}

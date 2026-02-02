@@ -1,0 +1,47 @@
+﻿@model IEnumerable<MyRecipe.Models.Recipe>
+
+@{
+    ViewData["Title"] = "Recipes";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="px-6 py-6">
+    <div class="flex justify-between items-center mb-6">
+        <h2 class="text-2xl font-bold text-slate-700">📃 All Recipes</h2>
+        <a asp-action="Create" class="bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded shadow">
+            ➕ Create New
+        </a>
+    </div>
+
+    <div class="overflow-x-auto">
+        <table class="min-w-full divide-y divide-gray-200 bg-white shadow-md rounded-lg">
+            <thead class="bg-gray-100">
+                <tr>
+                    <th class="px-4 py-2 text-left text-sm font-medium text-slate-600">Title</th> <!-- ✅ NEW -->
+                    <th class="px-4 py-2 text-left text-sm font-medium text-slate-600">Ingredients</th>
+                    <th class="px-4 py-2 text-left text-sm font-medium text-slate-600">Instructions</th>
+                    <th class="px-4 py-2 text-left text-sm font-medium text-slate-600">Created By</th>
+                    <th class="px-4 py-2 text-left text-sm font-medium text-slate-600">Created At</th>
+                    <th class="px-4 py-2"></th>
+                </tr>
+            </thead>
+            <tbody class="divide-y divide-gray-200">
+                @foreach (var item in Model)
+                {
+                    <tr class="hover:bg-gray-50">
+                        <td class="px-4 py-2 text-sm text-slate-700">@item.Title</td> <!-- ✅ NEW -->
+                        <td class="px-4 py-2 text-sm text-slate-700">@item.Ingredients</td>
+                        <td class="px-4 py-2 text-sm text-slate-700">@item.Instructions</td>
+                        <td class="px-4 py-2 text-sm text-slate-700">@item.CreatedBy</td>
+                        <td class="px-4 py-2 text-sm text-slate-700">@item.CreatedAt</td>
+                        <td class="px-4 py-2 text-right space-x-2">
+                            <a asp-action="Edit" asp-route-id="@item.Id" class="text-blue-600 hover:underline text-sm">Edit</a>
+                            <a asp-action="Details" asp-route-id="@item.Id" class="text-green-600 hover:underline text-sm">Details</a>
+                            <a asp-action="Delete" asp-route-id="@item.Id" class="text-red-600 hover:underline text-sm">Delete</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

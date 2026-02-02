@@ -1,0 +1,629 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\hp\\Desktop\\project\\CustomizeRecipe(Web Project)\\Backend\\MyRecipe\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0528FE6F-09ED-4EA2-A9B0-EF39E7850C81}|MyRecipe\\MyRecipe.csproj|c:\\users\\hp\\desktop\\project\\customizerecipe(web project)\\backend\\myrecipe\\myrecipe\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0528FE6F-09ED-4EA2-A9B0-EF39E7850C81}|MyRecipe\\MyRecipe.csproj|solutionrelative:myrecipe\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0528FE6F-09ED-4EA2-A9B0-EF39E7850C81}|MyRecipe\\MyRecipe.csproj|c:\\users\\hp\\desktop\\project\\customizerecipe(web project)\\backend\\myrecipe\\myrecipe\\models\\rating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0528FE6F-09ED-4EA2-A9B0-EF39E7850C81}|MyRecipe\\MyRecipe.csproj|solutionrelative:myrecipe\\models\\rating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0528FE6F-09ED-4EA2-A9B0-EF39E7850C81}|MyRecipe\\MyRecipe.csproj|c:\\users\\hp\\desktop\\project\\customizerecipe(web project)\\backend\\myrecipe\\myrecipe\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0528FE6F-09ED-4EA2-A9B0-EF39E7850C81}|MyRecipe\\MyRecipe.csproj|solutionrelative:myrecipe\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0528FE6F-09ED-4EA2-A9B0-EF39E7850C81}|MyRecipe\\MyRecipe.csproj|c:\\users\\hp\\desktop\\project\\customizerecipe(web project)\\backend\\myrecipe\\myrecipe\\controllers\\ratingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0528FE6F-09ED-4EA2-A9B0-EF39E7850C81}|MyRecipe\\MyRecipe.csproj|solutionrelative:myrecipe\\controllers\\ratingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0528FE6F-09ED-4EA2-A9B0-EF39E7850C81}|MyRecipe\\MyRecipe.csproj|c:\\users\\hp\\desktop\\project\\customizerecipe(web project)\\backend\\myrecipe\\myrecipe\\views\\reviews\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0528FE6F-09ED-4EA2-A9B0-EF39E7850C81}|MyRecipe\\MyRecipe.csproj|solutionrelative:myrecipe\\views\\reviews\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0528FE6F-09ED-4EA2-A9B0-EF39E7850C81}|MyRecipe\\MyRecipe.csproj|c:\\users\\hp\\desktop\\project\\customizerecipe(web project)\\backend\\myrecipe\\myrecipe\\views\\reviews\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0528FE6F-09ED-4EA2-A9B0-EF39E7850C81}|MyRecipe\\MyRecipe.csproj|solutionrelative:myrecipe\\views\\reviews\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0528FE6F-09ED-4EA2-A9B0-EF39E7850C81}|MyRecipe\\MyRecipe.csproj|c:\\users\\hp\\desktop\\project\\customizerecipe(web project)\\backend\\myrecipe\\myrecipe\\views\\reviews\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0528FE6F-09ED-4EA2-A9B0-EF39E7850C81}|MyRecipe\\MyRecipe.csproj|solutionrelative:myrecipe\\views\\reviews\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0528FE6F-09ED-4EA2-A9B0-EF39E7850C81}|MyRecipe\\MyRecipe.csproj|c:\\users\\hp\\desktop\\project\\customizerecipe(web project)\\backend\\myrecipe\\myrecipe\\views\\reviews\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0528FE6F-09ED-4EA2-A9B0-EF39E7850C81}|MyRecipe\\MyRecipe.csproj|solutionrelative:myrecipe\\views\\reviews\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0528FE6F-09ED-4EA2-A9B0-EF39E7850C81}|MyRecipe\\MyRecipe.csproj|c:\\users\\hp\\desktop\\project\\customizerecipe(web project)\\backend\\myrecipe\\myrecipe\\controllers\\reviewscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0528FE6F-09ED-4EA2-A9B0-EF39E7850C81}|MyRecipe\\MyRecipe.csproj|solutionrelative:myrecipe\\controllers\\reviewscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0528FE6F-09ED-4EA2-A9B0-EF39E7850C81}|MyRecipe\\MyRecipe.csproj|c:\\users\\hp\\desktop\\project\\customizerecipe(web project)\\backend\\myrecipe\\myrecipe\\models\\recipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0528FE6F-09ED-4EA2-A9B0-EF39E7850C81}|MyRecipe\\MyRecipe.csproj|solutionrelative:myrecipe\\models\\recipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0528FE6F-09ED-4EA2-A9B0-EF39E7850C81}|MyRecipe\\MyRecipe.csproj|c:\\users\\hp\\desktop\\project\\customizerecipe(web project)\\backend\\myrecipe\\myrecipe\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0528FE6F-09ED-4EA2-A9B0-EF39E7850C81}|MyRecipe\\MyRecipe.csproj|solutionrelative:myrecipe\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0528FE6F-09ED-4EA2-A9B0-EF39E7850C81}|MyRecipe\\MyRecipe.csproj|c:\\users\\hp\\desktop\\project\\customizerecipe(web project)\\backend\\myrecipe\\myrecipe\\views\\reviews\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0528FE6F-09ED-4EA2-A9B0-EF39E7850C81}|MyRecipe\\MyRecipe.csproj|solutionrelative:myrecipe\\views\\reviews\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0528FE6F-09ED-4EA2-A9B0-EF39E7850C81}|MyRecipe\\MyRecipe.csproj|c:\\users\\hp\\desktop\\project\\customizerecipe(web project)\\backend\\myrecipe\\myrecipe\\controllers\\reviewsapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0528FE6F-09ED-4EA2-A9B0-EF39E7850C81}|MyRecipe\\MyRecipe.csproj|solutionrelative:myrecipe\\controllers\\reviewsapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0528FE6F-09ED-4EA2-A9B0-EF39E7850C81}|MyRecipe\\MyRecipe.csproj|c:\\users\\hp\\desktop\\project\\customizerecipe(web project)\\backend\\myrecipe\\myrecipe\\views\\recipes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0528FE6F-09ED-4EA2-A9B0-EF39E7850C81}|MyRecipe\\MyRecipe.csproj|solutionrelative:myrecipe\\views\\recipes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0528FE6F-09ED-4EA2-A9B0-EF39E7850C81}|MyRecipe\\MyRecipe.csproj|c:\\users\\hp\\desktop\\project\\customizerecipe(web project)\\backend\\myrecipe\\myrecipe\\views\\ratings\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0528FE6F-09ED-4EA2-A9B0-EF39E7850C81}|MyRecipe\\MyRecipe.csproj|solutionrelative:myrecipe\\views\\ratings\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0528FE6F-09ED-4EA2-A9B0-EF39E7850C81}|MyRecipe\\MyRecipe.csproj|c:\\users\\hp\\desktop\\project\\customizerecipe(web project)\\backend\\myrecipe\\myrecipe\\views\\recipes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0528FE6F-09ED-4EA2-A9B0-EF39E7850C81}|MyRecipe\\MyRecipe.csproj|solutionrelative:myrecipe\\views\\recipes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0528FE6F-09ED-4EA2-A9B0-EF39E7850C81}|MyRecipe\\MyRecipe.csproj|c:\\users\\hp\\desktop\\project\\customizerecipe(web project)\\backend\\myrecipe\\myrecipe\\views\\recipes\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0528FE6F-09ED-4EA2-A9B0-EF39E7850C81}|MyRecipe\\MyRecipe.csproj|solutionrelative:myrecipe\\views\\recipes\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0528FE6F-09ED-4EA2-A9B0-EF39E7850C81}|MyRecipe\\MyRecipe.csproj|c:\\users\\hp\\desktop\\project\\customizerecipe(web project)\\backend\\myrecipe\\myrecipe\\views\\recipes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0528FE6F-09ED-4EA2-A9B0-EF39E7850C81}|MyRecipe\\MyRecipe.csproj|solutionrelative:myrecipe\\views\\recipes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0528FE6F-09ED-4EA2-A9B0-EF39E7850C81}|MyRecipe\\MyRecipe.csproj|c:\\users\\hp\\desktop\\project\\customizerecipe(web project)\\backend\\myrecipe\\myrecipe\\views\\recipes\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0528FE6F-09ED-4EA2-A9B0-EF39E7850C81}|MyRecipe\\MyRecipe.csproj|solutionrelative:myrecipe\\views\\recipes\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0528FE6F-09ED-4EA2-A9B0-EF39E7850C81}|MyRecipe\\MyRecipe.csproj|c:\\users\\hp\\desktop\\project\\customizerecipe(web project)\\backend\\myrecipe\\myrecipe\\controllers\\recipesapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0528FE6F-09ED-4EA2-A9B0-EF39E7850C81}|MyRecipe\\MyRecipe.csproj|solutionrelative:myrecipe\\controllers\\recipesapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0528FE6F-09ED-4EA2-A9B0-EF39E7850C81}|MyRecipe\\MyRecipe.csproj|c:\\users\\hp\\desktop\\project\\customizerecipe(web project)\\backend\\myrecipe\\myrecipe\\controllers\\recipescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0528FE6F-09ED-4EA2-A9B0-EF39E7850C81}|MyRecipe\\MyRecipe.csproj|solutionrelative:myrecipe\\controllers\\recipescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0528FE6F-09ED-4EA2-A9B0-EF39E7850C81}|MyRecipe\\MyRecipe.csproj|c:\\users\\hp\\desktop\\project\\customizerecipe(web project)\\backend\\myrecipe\\myrecipe\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0528FE6F-09ED-4EA2-A9B0-EF39E7850C81}|MyRecipe\\MyRecipe.csproj|solutionrelative:myrecipe\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0528FE6F-09ED-4EA2-A9B0-EF39E7850C81}|MyRecipe\\MyRecipe.csproj|c:\\users\\hp\\desktop\\project\\customizerecipe(web project)\\backend\\myrecipe\\myrecipe\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0528FE6F-09ED-4EA2-A9B0-EF39E7850C81}|MyRecipe\\MyRecipe.csproj|solutionrelative:myrecipe\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0528FE6F-09ED-4EA2-A9B0-EF39E7850C81}|MyRecipe\\MyRecipe.csproj|c:\\users\\hp\\desktop\\project\\customizerecipe(web project)\\backend\\myrecipe\\myrecipe\\controllers\\usersapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0528FE6F-09ED-4EA2-A9B0-EF39E7850C81}|MyRecipe\\MyRecipe.csproj|solutionrelative:myrecipe\\controllers\\usersapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0528FE6F-09ED-4EA2-A9B0-EF39E7850C81}|MyRecipe\\MyRecipe.csproj|c:\\users\\hp\\desktop\\project\\customizerecipe(web project)\\backend\\myrecipe\\myrecipe\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0528FE6F-09ED-4EA2-A9B0-EF39E7850C81}|MyRecipe\\MyRecipe.csproj|solutionrelative:myrecipe\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0528FE6F-09ED-4EA2-A9B0-EF39E7850C81}|MyRecipe\\MyRecipe.csproj|c:\\users\\hp\\desktop\\project\\customizerecipe(web project)\\backend\\myrecipe\\myrecipe\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0528FE6F-09ED-4EA2-A9B0-EF39E7850C81}|MyRecipe\\MyRecipe.csproj|solutionrelative:myrecipe\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0528FE6F-09ED-4EA2-A9B0-EF39E7850C81}|MyRecipe\\MyRecipe.csproj|c:\\users\\hp\\desktop\\project\\customizerecipe(web project)\\backend\\myrecipe\\myrecipe\\views\\ratings\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0528FE6F-09ED-4EA2-A9B0-EF39E7850C81}|MyRecipe\\MyRecipe.csproj|solutionrelative:myrecipe\\views\\ratings\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0528FE6F-09ED-4EA2-A9B0-EF39E7850C81}|MyRecipe\\MyRecipe.csproj|c:\\users\\hp\\desktop\\project\\customizerecipe(web project)\\backend\\myrecipe\\myrecipe\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0528FE6F-09ED-4EA2-A9B0-EF39E7850C81}|MyRecipe\\MyRecipe.csproj|solutionrelative:myrecipe\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0528FE6F-09ED-4EA2-A9B0-EF39E7850C81}|MyRecipe\\MyRecipe.csproj|c:\\users\\hp\\desktop\\project\\customizerecipe(web project)\\backend\\myrecipe\\myrecipe\\views\\users\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0528FE6F-09ED-4EA2-A9B0-EF39E7850C81}|MyRecipe\\MyRecipe.csproj|solutionrelative:myrecipe\\views\\users\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0528FE6F-09ED-4EA2-A9B0-EF39E7850C81}|MyRecipe\\MyRecipe.csproj|c:\\users\\hp\\desktop\\project\\customizerecipe(web project)\\backend\\myrecipe\\myrecipe\\views\\users\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0528FE6F-09ED-4EA2-A9B0-EF39E7850C81}|MyRecipe\\MyRecipe.csproj|solutionrelative:myrecipe\\views\\users\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0528FE6F-09ED-4EA2-A9B0-EF39E7850C81}|MyRecipe\\MyRecipe.csproj|c:\\users\\hp\\desktop\\project\\customizerecipe(web project)\\backend\\myrecipe\\myrecipe\\views\\users\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0528FE6F-09ED-4EA2-A9B0-EF39E7850C81}|MyRecipe\\MyRecipe.csproj|solutionrelative:myrecipe\\views\\users\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0528FE6F-09ED-4EA2-A9B0-EF39E7850C81}|MyRecipe\\MyRecipe.csproj|c:\\users\\hp\\desktop\\project\\customizerecipe(web project)\\backend\\myrecipe\\myrecipe\\views\\users\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0528FE6F-09ED-4EA2-A9B0-EF39E7850C81}|MyRecipe\\MyRecipe.csproj|solutionrelative:myrecipe\\views\\users\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0528FE6F-09ED-4EA2-A9B0-EF39E7850C81}|MyRecipe\\MyRecipe.csproj|c:\\users\\hp\\desktop\\project\\customizerecipe(web project)\\backend\\myrecipe\\myrecipe\\views\\ratings\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0528FE6F-09ED-4EA2-A9B0-EF39E7850C81}|MyRecipe\\MyRecipe.csproj|solutionrelative:myrecipe\\views\\ratings\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0528FE6F-09ED-4EA2-A9B0-EF39E7850C81}|MyRecipe\\MyRecipe.csproj|c:\\users\\hp\\desktop\\project\\customizerecipe(web project)\\backend\\myrecipe\\myrecipe\\views\\ratings\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0528FE6F-09ED-4EA2-A9B0-EF39E7850C81}|MyRecipe\\MyRecipe.csproj|solutionrelative:myrecipe\\views\\ratings\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0528FE6F-09ED-4EA2-A9B0-EF39E7850C81}|MyRecipe\\MyRecipe.csproj|c:\\users\\hp\\desktop\\project\\customizerecipe(web project)\\backend\\myrecipe\\myrecipe\\views\\ratings\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0528FE6F-09ED-4EA2-A9B0-EF39E7850C81}|MyRecipe\\MyRecipe.csproj|solutionrelative:myrecipe\\views\\ratings\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0528FE6F-09ED-4EA2-A9B0-EF39E7850C81}|MyRecipe\\MyRecipe.csproj|c:\\users\\hp\\desktop\\project\\customizerecipe(web project)\\backend\\myrecipe\\myrecipe\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0528FE6F-09ED-4EA2-A9B0-EF39E7850C81}|MyRecipe\\MyRecipe.csproj|solutionrelative:myrecipe\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0528FE6F-09ED-4EA2-A9B0-EF39E7850C81}|MyRecipe\\MyRecipe.csproj|c:\\users\\hp\\desktop\\project\\customizerecipe(web project)\\backend\\myrecipe\\myrecipe\\controllers\\ratingsapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0528FE6F-09ED-4EA2-A9B0-EF39E7850C81}|MyRecipe\\MyRecipe.csproj|solutionrelative:myrecipe\\controllers\\ratingsapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0528FE6F-09ED-4EA2-A9B0-EF39E7850C81}|MyRecipe\\MyRecipe.csproj|c:\\users\\hp\\desktop\\project\\customizerecipe(web project)\\backend\\myrecipe\\myrecipe\\models\\customizerecipecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0528FE6F-09ED-4EA2-A9B0-EF39E7850C81}|MyRecipe\\MyRecipe.csproj|solutionrelative:myrecipe\\models\\customizerecipecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\project\\CustomizeRecipe(Web Project)\\Backend\\MyRecipe\\MyRecipe\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "MyRecipe\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\project\\CustomizeRecipe(Web Project)\\Backend\\MyRecipe\\MyRecipe\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "MyRecipe\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAADwvxEAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T16:41:46.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\project\\CustomizeRecipe(Web Project)\\Backend\\MyRecipe\\MyRecipe\\Views\\Reviews\\Details.cshtml",
+              "RelativeDocumentMoniker": "MyRecipe\\Views\\Reviews\\Details.cshtml",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\project\\CustomizeRecipe(Web Project)\\Backend\\MyRecipe\\MyRecipe\\Views\\Reviews\\Details.cshtml",
+              "RelativeToolTip": "MyRecipe\\Views\\Reviews\\Details.cshtml",
+              "ViewState": "AgIAABAAAAAAAAAAAAAqwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-29T08:10:57.181Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\project\\CustomizeRecipe(Web Project)\\Backend\\MyRecipe\\MyRecipe\\Views\\Reviews\\Delete.cshtml",
+              "RelativeDocumentMoniker": "MyRecipe\\Views\\Reviews\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\project\\CustomizeRecipe(Web Project)\\Backend\\MyRecipe\\MyRecipe\\Views\\Reviews\\Delete.cshtml",
+              "RelativeToolTip": "MyRecipe\\Views\\Reviews\\Delete.cshtml",
+              "ViewState": "AgIAABMAAAAAAAAAAAAqwCUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-29T07:29:27.472Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ReviewsController.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\project\\CustomizeRecipe(Web Project)\\Backend\\MyRecipe\\MyRecipe\\Controllers\\ReviewsController.cs",
+              "RelativeDocumentMoniker": "MyRecipe\\Controllers\\ReviewsController.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\project\\CustomizeRecipe(Web Project)\\Backend\\MyRecipe\\MyRecipe\\Controllers\\ReviewsController.cs",
+              "RelativeToolTip": "MyRecipe\\Controllers\\ReviewsController.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAiwDwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T07:26:10.923Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\project\\CustomizeRecipe(Web Project)\\Backend\\MyRecipe\\MyRecipe\\Views\\Ratings\\Edit.cshtml",
+              "RelativeDocumentMoniker": "MyRecipe\\Views\\Ratings\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\project\\CustomizeRecipe(Web Project)\\Backend\\MyRecipe\\MyRecipe\\Views\\Ratings\\Edit.cshtml",
+              "RelativeToolTip": "MyRecipe\\Views\\Ratings\\Edit.cshtml",
+              "ViewState": "AgIAACAAAAAAAAAAAAAmwDIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-25T05:37:35.702Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RatingsController.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\project\\CustomizeRecipe(Web Project)\\Backend\\MyRecipe\\MyRecipe\\Controllers\\RatingsController.cs",
+              "RelativeDocumentMoniker": "MyRecipe\\Controllers\\RatingsController.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\project\\CustomizeRecipe(Web Project)\\Backend\\MyRecipe\\MyRecipe\\Controllers\\RatingsController.cs",
+              "RelativeToolTip": "MyRecipe\\Controllers\\RatingsController.cs",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAqwJAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T18:44:59.638Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Rating.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\project\\CustomizeRecipe(Web Project)\\Backend\\MyRecipe\\MyRecipe\\Models\\Rating.cs",
+              "RelativeDocumentMoniker": "MyRecipe\\Models\\Rating.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\project\\CustomizeRecipe(Web Project)\\Backend\\MyRecipe\\MyRecipe\\Models\\Rating.cs",
+              "RelativeToolTip": "MyRecipe\\Models\\Rating.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T19:31:52.67Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Review.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\project\\CustomizeRecipe(Web Project)\\Backend\\MyRecipe\\MyRecipe\\Models\\Review.cs",
+              "RelativeDocumentMoniker": "MyRecipe\\Models\\Review.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\project\\CustomizeRecipe(Web Project)\\Backend\\MyRecipe\\MyRecipe\\Models\\Review.cs",
+              "RelativeToolTip": "MyRecipe\\Models\\Review.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAkwBcAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T19:33:54.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\project\\CustomizeRecipe(Web Project)\\Backend\\MyRecipe\\MyRecipe\\Views\\Reviews\\Edit.cshtml",
+              "RelativeDocumentMoniker": "MyRecipe\\Views\\Reviews\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\project\\CustomizeRecipe(Web Project)\\Backend\\MyRecipe\\MyRecipe\\Views\\Reviews\\Edit.cshtml",
+              "RelativeToolTip": "MyRecipe\\Views\\Reviews\\Edit.cshtml",
+              "ViewState": "AgIAABwAAAAAAAAAAAAmwDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-29T08:11:15.602Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\project\\CustomizeRecipe(Web Project)\\Backend\\MyRecipe\\MyRecipe\\Views\\Reviews\\Index.cshtml",
+              "RelativeDocumentMoniker": "MyRecipe\\Views\\Reviews\\Index.cshtml",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\project\\CustomizeRecipe(Web Project)\\Backend\\MyRecipe\\MyRecipe\\Views\\Reviews\\Index.cshtml",
+              "RelativeToolTip": "MyRecipe\\Views\\Reviews\\Index.cshtml",
+              "ViewState": "AgIAABkAAAAAAAAAAAAqwCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-29T08:12:30.594Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\project\\CustomizeRecipe(Web Project)\\Backend\\MyRecipe\\MyRecipe\\Views\\Reviews\\Create.cshtml",
+              "RelativeDocumentMoniker": "MyRecipe\\Views\\Reviews\\Create.cshtml",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\project\\CustomizeRecipe(Web Project)\\Backend\\MyRecipe\\MyRecipe\\Views\\Reviews\\Create.cshtml",
+              "RelativeToolTip": "MyRecipe\\Views\\Reviews\\Create.cshtml",
+              "ViewState": "AgIAABcAAAAAAAAAAAAQwCwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-29T07:27:27.803Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\project\\CustomizeRecipe(Web Project)\\Backend\\MyRecipe\\MyRecipe\\Models\\User.cs",
+              "RelativeDocumentMoniker": "MyRecipe\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\project\\CustomizeRecipe(Web Project)\\Backend\\MyRecipe\\MyRecipe\\Models\\User.cs",
+              "RelativeToolTip": "MyRecipe\\Models\\User.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAgPQAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T07:46:17.051Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Recipe.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\project\\CustomizeRecipe(Web Project)\\Backend\\MyRecipe\\MyRecipe\\Models\\Recipe.cs",
+              "RelativeDocumentMoniker": "MyRecipe\\Models\\Recipe.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\project\\CustomizeRecipe(Web Project)\\Backend\\MyRecipe\\MyRecipe\\Models\\Recipe.cs",
+              "RelativeToolTip": "MyRecipe\\Models\\Recipe.cs",
+              "ViewState": "AgIAABQAAAAwMzMzMzMxwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T19:52:52.887Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ReviewsApiController.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\project\\CustomizeRecipe(Web Project)\\Backend\\MyRecipe\\MyRecipe\\Controllers\\ReviewsApiController.cs",
+              "RelativeDocumentMoniker": "MyRecipe\\Controllers\\ReviewsApiController.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\project\\CustomizeRecipe(Web Project)\\Backend\\MyRecipe\\MyRecipe\\Controllers\\ReviewsApiController.cs",
+              "RelativeToolTip": "MyRecipe\\Controllers\\ReviewsApiController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T07:27:18.053Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\project\\CustomizeRecipe(Web Project)\\Backend\\MyRecipe\\MyRecipe\\Views\\Recipes\\Index.cshtml",
+              "RelativeDocumentMoniker": "MyRecipe\\Views\\Recipes\\Index.cshtml",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\project\\CustomizeRecipe(Web Project)\\Backend\\MyRecipe\\MyRecipe\\Views\\Recipes\\Index.cshtml",
+              "RelativeToolTip": "MyRecipe\\Views\\Recipes\\Index.cshtml",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAmwC4AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-25T05:47:53.973Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\project\\CustomizeRecipe(Web Project)\\Backend\\MyRecipe\\MyRecipe\\Views\\Recipes\\Edit.cshtml",
+              "RelativeDocumentMoniker": "MyRecipe\\Views\\Recipes\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\project\\CustomizeRecipe(Web Project)\\Backend\\MyRecipe\\MyRecipe\\Views\\Recipes\\Edit.cshtml",
+              "RelativeToolTip": "MyRecipe\\Views\\Recipes\\Edit.cshtml",
+              "ViewState": "AgIAACgAAAAAAAAAAAAQwDsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-25T05:48:05.233Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\project\\CustomizeRecipe(Web Project)\\Backend\\MyRecipe\\MyRecipe\\Views\\Recipes\\Details.cshtml",
+              "RelativeDocumentMoniker": "MyRecipe\\Views\\Recipes\\Details.cshtml",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\project\\CustomizeRecipe(Web Project)\\Backend\\MyRecipe\\MyRecipe\\Views\\Recipes\\Details.cshtml",
+              "RelativeToolTip": "MyRecipe\\Views\\Recipes\\Details.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-25T05:48:24.643Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\project\\CustomizeRecipe(Web Project)\\Backend\\MyRecipe\\MyRecipe\\Views\\Recipes\\Delete.cshtml",
+              "RelativeDocumentMoniker": "MyRecipe\\Views\\Recipes\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\project\\CustomizeRecipe(Web Project)\\Backend\\MyRecipe\\MyRecipe\\Views\\Recipes\\Delete.cshtml",
+              "RelativeToolTip": "MyRecipe\\Views\\Recipes\\Delete.cshtml",
+              "ViewState": "AgIAABkAAAAAAAAAAAAYwCwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-25T05:48:36.131Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\project\\CustomizeRecipe(Web Project)\\Backend\\MyRecipe\\MyRecipe\\Views\\Recipes\\Create.cshtml",
+              "RelativeDocumentMoniker": "MyRecipe\\Views\\Recipes\\Create.cshtml",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\project\\CustomizeRecipe(Web Project)\\Backend\\MyRecipe\\MyRecipe\\Views\\Recipes\\Create.cshtml",
+              "RelativeToolTip": "MyRecipe\\Views\\Recipes\\Create.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAYwDQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-25T05:48:47.248Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "RecipesApiController.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\project\\CustomizeRecipe(Web Project)\\Backend\\MyRecipe\\MyRecipe\\Controllers\\RecipesApiController.cs",
+              "RelativeDocumentMoniker": "MyRecipe\\Controllers\\RecipesApiController.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\project\\CustomizeRecipe(Web Project)\\Backend\\MyRecipe\\MyRecipe\\Controllers\\RecipesApiController.cs",
+              "RelativeToolTip": "MyRecipe\\Controllers\\RecipesApiController.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAAwGsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T18:44:23.367Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "RecipesController.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\project\\CustomizeRecipe(Web Project)\\Backend\\MyRecipe\\MyRecipe\\Controllers\\RecipesController.cs",
+              "RelativeDocumentMoniker": "MyRecipe\\Controllers\\RecipesController.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\project\\CustomizeRecipe(Web Project)\\Backend\\MyRecipe\\MyRecipe\\Controllers\\RecipesController.cs",
+              "RelativeToolTip": "MyRecipe\\Controllers\\RecipesController.cs",
+              "ViewState": "AgIAAIoAAAAAAAAAAAAuwJwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T18:43:32.549Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\project\\CustomizeRecipe(Web Project)\\Backend\\MyRecipe\\MyRecipe\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "MyRecipe\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\project\\CustomizeRecipe(Web Project)\\Backend\\MyRecipe\\MyRecipe\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MyRecipe\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAMsAAAAAAAAAAAAqwN0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-25T05:18:51.581Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "UsersApiController.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\project\\CustomizeRecipe(Web Project)\\Backend\\MyRecipe\\MyRecipe\\Controllers\\UsersApiController.cs",
+              "RelativeDocumentMoniker": "MyRecipe\\Controllers\\UsersApiController.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\project\\CustomizeRecipe(Web Project)\\Backend\\MyRecipe\\MyRecipe\\Controllers\\UsersApiController.cs",
+              "RelativeToolTip": "MyRecipe\\Controllers\\UsersApiController.cs",
+              "ViewState": "AgIAAC0AAABgZmZmZmYwwDQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T18:41:04.312Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\project\\CustomizeRecipe(Web Project)\\Backend\\MyRecipe\\MyRecipe\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "MyRecipe\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\project\\CustomizeRecipe(Web Project)\\Backend\\MyRecipe\\MyRecipe\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "MyRecipe\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAAIoAAAAAaGZmZmYWwJsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T18:40:09.017Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\project\\CustomizeRecipe(Web Project)\\Backend\\MyRecipe\\MyRecipe\\Views\\Users\\Index.cshtml",
+              "RelativeDocumentMoniker": "MyRecipe\\Views\\Users\\Index.cshtml",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\project\\CustomizeRecipe(Web Project)\\Backend\\MyRecipe\\MyRecipe\\Views\\Users\\Index.cshtml",
+              "RelativeToolTip": "MyRecipe\\Views\\Users\\Index.cshtml",
+              "ViewState": "AgIAABoAAAAAMzMzMzMbwAQAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-25T05:44:28.057Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\project\\CustomizeRecipe(Web Project)\\Backend\\MyRecipe\\MyRecipe\\appsettings.json",
+              "RelativeDocumentMoniker": "MyRecipe\\appsettings.json",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\project\\CustomizeRecipe(Web Project)\\Backend\\MyRecipe\\MyRecipe\\appsettings.json",
+              "RelativeToolTip": "MyRecipe\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-24T18:36:32.295Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\project\\CustomizeRecipe(Web Project)\\Backend\\MyRecipe\\MyRecipe\\Views\\Ratings\\Create.cshtml",
+              "RelativeDocumentMoniker": "MyRecipe\\Views\\Ratings\\Create.cshtml",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\project\\CustomizeRecipe(Web Project)\\Backend\\MyRecipe\\MyRecipe\\Views\\Ratings\\Create.cshtml",
+              "RelativeToolTip": "MyRecipe\\Views\\Ratings\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-25T05:38:26.335Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\project\\CustomizeRecipe(Web Project)\\Backend\\MyRecipe\\MyRecipe\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "MyRecipe\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\project\\CustomizeRecipe(Web Project)\\Backend\\MyRecipe\\MyRecipe\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "MyRecipe\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-25T05:52:07.477Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\project\\CustomizeRecipe(Web Project)\\Backend\\MyRecipe\\MyRecipe\\Views\\Users\\Delete.cshtml",
+              "RelativeDocumentMoniker": "MyRecipe\\Views\\Users\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\project\\CustomizeRecipe(Web Project)\\Backend\\MyRecipe\\MyRecipe\\Views\\Users\\Delete.cshtml",
+              "RelativeToolTip": "MyRecipe\\Views\\Users\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-25T05:45:21.847Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\project\\CustomizeRecipe(Web Project)\\Backend\\MyRecipe\\MyRecipe\\Views\\Users\\Create.cshtml",
+              "RelativeDocumentMoniker": "MyRecipe\\Views\\Users\\Create.cshtml",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\project\\CustomizeRecipe(Web Project)\\Backend\\MyRecipe\\MyRecipe\\Views\\Users\\Create.cshtml",
+              "RelativeToolTip": "MyRecipe\\Views\\Users\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-25T05:45:32.587Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\project\\CustomizeRecipe(Web Project)\\Backend\\MyRecipe\\MyRecipe\\Views\\Users\\Details.cshtml",
+              "RelativeDocumentMoniker": "MyRecipe\\Views\\Users\\Details.cshtml",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\project\\CustomizeRecipe(Web Project)\\Backend\\MyRecipe\\MyRecipe\\Views\\Users\\Details.cshtml",
+              "RelativeToolTip": "MyRecipe\\Views\\Users\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-25T05:45:06.341Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\project\\CustomizeRecipe(Web Project)\\Backend\\MyRecipe\\MyRecipe\\Views\\Users\\Edit.cshtml",
+              "RelativeDocumentMoniker": "MyRecipe\\Views\\Users\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\project\\CustomizeRecipe(Web Project)\\Backend\\MyRecipe\\MyRecipe\\Views\\Users\\Edit.cshtml",
+              "RelativeToolTip": "MyRecipe\\Views\\Users\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-25T05:44:53.931Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\project\\CustomizeRecipe(Web Project)\\Backend\\MyRecipe\\MyRecipe\\Views\\Ratings\\Delete.cshtml",
+              "RelativeDocumentMoniker": "MyRecipe\\Views\\Ratings\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\project\\CustomizeRecipe(Web Project)\\Backend\\MyRecipe\\MyRecipe\\Views\\Ratings\\Delete.cshtml",
+              "RelativeToolTip": "MyRecipe\\Views\\Ratings\\Delete.cshtml",
+              "ViewState": "AgIAABYAAAAAAAAAAAAswCoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-25T05:38:12.401Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\project\\CustomizeRecipe(Web Project)\\Backend\\MyRecipe\\MyRecipe\\Views\\Ratings\\Details.cshtml",
+              "RelativeDocumentMoniker": "MyRecipe\\Views\\Ratings\\Details.cshtml",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\project\\CustomizeRecipe(Web Project)\\Backend\\MyRecipe\\MyRecipe\\Views\\Ratings\\Details.cshtml",
+              "RelativeToolTip": "MyRecipe\\Views\\Ratings\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-25T05:38:00.926Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\project\\CustomizeRecipe(Web Project)\\Backend\\MyRecipe\\MyRecipe\\Views\\Ratings\\Index.cshtml",
+              "RelativeDocumentMoniker": "MyRecipe\\Views\\Ratings\\Index.cshtml",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\project\\CustomizeRecipe(Web Project)\\Backend\\MyRecipe\\MyRecipe\\Views\\Ratings\\Index.cshtml",
+              "RelativeToolTip": "MyRecipe\\Views\\Ratings\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-25T05:33:03.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "RatingsApiController.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\project\\CustomizeRecipe(Web Project)\\Backend\\MyRecipe\\MyRecipe\\Controllers\\RatingsApiController.cs",
+              "RelativeDocumentMoniker": "MyRecipe\\Controllers\\RatingsApiController.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\project\\CustomizeRecipe(Web Project)\\Backend\\MyRecipe\\MyRecipe\\Controllers\\RatingsApiController.cs",
+              "RelativeToolTip": "MyRecipe\\Controllers\\RatingsApiController.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAowGsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T18:45:40.466Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\project\\CustomizeRecipe(Web Project)\\Backend\\MyRecipe\\MyRecipe\\Program.cs",
+              "RelativeDocumentMoniker": "MyRecipe\\Program.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\project\\CustomizeRecipe(Web Project)\\Backend\\MyRecipe\\MyRecipe\\Program.cs",
+              "RelativeToolTip": "MyRecipe\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T18:36:48.773Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "CustomizeRecipeContext.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\project\\CustomizeRecipe(Web Project)\\Backend\\MyRecipe\\MyRecipe\\Models\\CustomizeRecipeContext.cs",
+              "RelativeDocumentMoniker": "MyRecipe\\Models\\CustomizeRecipeContext.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\project\\CustomizeRecipe(Web Project)\\Backend\\MyRecipe\\MyRecipe\\Models\\CustomizeRecipeContext.cs",
+              "RelativeToolTip": "MyRecipe\\Models\\CustomizeRecipeContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T18:39:03.208Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+﻿@model IEnumerable<MyRecipe.Models.Review>
+
+@{
+    ViewData["Title"] = "Manage Reviews";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="px-6 py-4">
+    <div class="flex justify-between items-center mb-6">
+        <h1 class="text-2xl font-bold text-blue-600">📝 Manage Reviews</h1>
+        <a asp-action="Create" class="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded shadow">
+            ➕ Create New
+        </a>
+    </div>
+
+    <div class="overflow-x-auto">
+        <table class="min-w-full bg-white rounded-lg shadow-md overflow-hidden">
+            <thead class="bg-gray-100 text-slate-700 text-left text-sm uppercase">
+                <tr>
+                    <th class="px-6 py-3">Comment</th>
+                    <th class="px-6 py-3">Created At</th>
+                    <th class="px-6 py-3">Recipe Title</th>
+                    <th class="px-6 py-3 text-center">Actions</th>
+                </tr>
+            </thead>
+            <tbody class="text-slate-600 text-sm">
+                @foreach (var item in Model)
+                {
+                    <tr class="border-b hover:bg-gray-50">
+                        <td class="px-6 py-4">@Html.DisplayFor(modelItem => item.Comment)</td>
+                        <td class="px-6 py-4">@Html.DisplayFor(modelItem => item.CreatedAt)</td>
+                        <td class="px-6 py-4">@Html.DisplayFor(modelItem => item.Recipe.Title)</td>
+                        <td class="px-6 py-4 text-center space-x-2">
+                            <a asp-action="Edit" asp-route-id="@item.Id" class="text-blue-600 hover:underline">Edit</a>
+                            <a asp-action="Details" asp-route-id="@item.Id" class="text-green-600 hover:underline">Details</a>
+                            <a asp-action="Delete" asp-route-id="@item.Id" class="text-red-600 hover:underline">Delete</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

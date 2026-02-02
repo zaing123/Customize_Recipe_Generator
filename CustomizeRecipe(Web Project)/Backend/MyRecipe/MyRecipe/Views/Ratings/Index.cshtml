@@ -1,0 +1,43 @@
+﻿@model IEnumerable<MyRecipe.Models.Rating>
+
+@{
+    ViewData["Title"] = "Manage Ratings";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="px-6 py-4">
+    <div class="flex items-center justify-between mb-6">
+        <h1 class="text-2xl font-bold text-slate-700">📊 Manage Ratings</h1>
+        <a asp-action="Create" class="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded shadow">
+            ➕ Create New
+        </a>
+    </div>
+
+    <div class="overflow-x-auto bg-white rounded-lg shadow">
+        <table class="min-w-full text-sm text-left text-slate-600">
+            <thead class="bg-gray-100 text-slate-700 text-sm uppercase">
+                <tr>
+                    <th class="px-6 py-3">Score</th>
+                    <th class="px-6 py-3">Created At</th>
+                    <th class="px-6 py-3">Recipe ID</th>
+                    <th class="px-6 py-3 text-right">Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr class="border-t border-gray-200 hover:bg-gray-50">
+                        <td class="px-6 py-4">@item.Score</td>
+                        <td class="px-6 py-4">@item.CreatedAt.ToString("yyyy-MM-dd")</td>
+                        <td class="px-6 py-4">@item.Recipe?.Id</td>
+                        <td class="px-6 py-4 text-right">
+                            <a asp-action="Edit" asp-route-id="@item.Id" class="text-blue-600 hover:underline mr-3">Edit</a>
+                            <a asp-action="Details" asp-route-id="@item.Id" class="text-green-600 hover:underline mr-3">Details</a>
+                            <a asp-action="Delete" asp-route-id="@item.Id" class="text-red-600 hover:underline">Delete</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

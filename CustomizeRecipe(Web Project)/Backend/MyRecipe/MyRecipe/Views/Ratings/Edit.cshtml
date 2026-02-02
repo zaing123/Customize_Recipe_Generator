@@ -1,0 +1,50 @@
+﻿@model MyRecipe.Models.Rating
+
+@{
+    ViewData["Title"] = "Edit Rating";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="flex items-center justify-center min-h-screen bg-gray-50 px-4">
+    <div class="w-full max-w-xl p-8 bg-white rounded-2xl shadow-lg">
+        <h1 class="text-2xl font-bold text-center text-purple-700 mb-6">✏️ Edit Rating</h1>
+
+        <form asp-action="Edit" class="space-y-5">
+            <div asp-validation-summary="ModelOnly" class="text-red-600 text-sm mb-2"></div>
+            <input type="hidden" asp-for="Id" />
+
+            <div>
+                <label asp-for="RecipeId" class="block font-medium text-gray-700 mb-1">Recipe</label>
+                <select asp-for="RecipeId" asp-items="ViewBag.RecipeId"
+                        class="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-purple-400" />
+                <span asp-validation-for="RecipeId" class="text-red-500 text-sm"></span>
+            </div>
+
+            <div>
+                <label asp-for="Score" class="block font-medium text-gray-700 mb-1">Score</label>
+                <input asp-for="Score"
+                       class="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-purple-400" />
+                <span asp-validation-for="Score" class="text-red-500 text-sm"></span>
+            </div>
+
+            <div>
+                <label asp-for="CreatedAt" class="block font-medium text-gray-700 mb-1">Created At</label>
+                <input asp-for="CreatedAt"
+                       class="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-purple-400" />
+                <span asp-validation-for="CreatedAt" class="text-red-500 text-sm"></span>
+            </div>
+
+            <div class="flex flex-col sm:flex-row justify-between items-center gap-3 mt-6">
+                <input type="submit" value="💾 Save"
+                       class="bg-purple-600 hover:bg-purple-700 text-white font-semibold py-2 px-6 rounded-md shadow" />
+                <a asp-action="Index" class="text-purple-600 hover:underline">← Back to List</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+@{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
