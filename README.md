@@ -61,7 +61,7 @@ Customize Recipe Maker is a full-stack web application that allows users to crea
 
 1. Clone the repository
    ```bash
-   git clone https://github.com/your-username/customize-recipe-maker.git
+   https://github.com/zaing123/Customize_Recipe_Generator.git
    ```
 2. Open the backend project in Visual Studio
 3. Configure MySQL connection string in `appsettings.json`
